@@ -1,6 +1,6 @@
 # Pebble Desk
 
-> A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook and BOOX. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.
+> A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook, BOOX Palma and iReader. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.
 
 Pebble Desk (페블 데스크) is a home-screen app (launcher) for Android E Ink readers, made for the Crema Pebble (6", 1072×1456).
 The home screen shows the book you are reading, three more books you are reading, favorite apps and today’s reading time.
@@ -15,6 +15,12 @@ It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.
 - Black-and-white or color, adjustable text size and spacing
 - Supported reading apps (auto-add): Kindle, Libby, KOReader, Moon+ Reader, Kyobo Library, Kyobo eBook, millie (밀리의서재), Aladin, Bookers, RIDI, YES24 Library, my YES, YES24 eBook, NeoReader (BOOX)
 
+## Devices
+
+- In use on: Crema Pebble, Meebook E6, Kyobo sam 7 mono, BOOX Palma, BOOX Leaf, BOOX Leaf2, BOOX Poke3, BOOX Poke6, iReader Ocean 5 Pro, iReader Tango, iReader Neo 3 Ultra, Viwoods AiPaper Mini, Moaan MIX7S, Minimal Phone.
+- Other Android E Ink readers (Android 9 or later, can install apps and change the home app) should work too but are not verified: Crema Motif, Crema Grande, Crema S, Crema Palette, Meebook M6, Meebook M7, Meebook M8, BOOX Palma 2, BOOX Poke5, BOOX Leaf3, BOOX Page, BOOX Note Air, BOOX Tab Ultra, BOOX Go 6, iReader Ocean, iReader Tango 2S, Bigme HiBreak Pro, Hisense A9, Viwoods AiPaper.
+- Not supported: Kindle and Kobo readers (no Android apps), devices on Android 8 or earlier (e.g. InkPalm 5).
+
 ## FAQ
 
 - **Which devices does it work on?** Android E Ink readers running Android 9 or later. It’s built for the Crema Pebble and is in use on the Meebook E6, Kyobo sam 7 mono, BOOX Leaf, Poke3 and Palma, iReader Ocean 5 Pro and Tango, Viwoods AiPaper Mini and more. On other screen sizes it scales to the same proportions. It can’t run on devices that don’t install Android apps, such as Kindle or Kobo readers.
@@ -25,7 +31,10 @@ It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.
 
 ## 한국어 요약
 
-크레마 페블, 메이북, BOOX 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.
+크레마 페블, 메이북, BOOX 팔마, 아이리더 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.
+
+- 쓰고 있는 기기: 크레마 페블, 메이북 E6, 교보 sam 7 mono, 오닉스 BOOX 팔마, BOOX 리프, BOOX 리프2, BOOX 포크3, BOOX 포크6, 아이리더 오션 5 프로, 아이리더 탱고, 아이리더 네오 3 울트라, Viwoods AiPaper Mini, Moaan MIX7S, Minimal Phone
+- 그 밖의 안드로이드 전자잉크 기기(안드로이드 9 이상, 앱 설치·기본 홈 앱 바꾸기가 되는 기기)도 쓸 수 있지만 확인하지 않았다: 크레마 모티프, 크레마 그랑데, 크레마 S, 크레마 팔레트, 크레마 클럽, 메이북 M6, 메이북 M7, 메이북 M8, BOOX 팔마 2, BOOX 포크5, BOOX 리프3, BOOX 페이지, BOOX 노트 에어, BOOX 탭 울트라, BOOX 고 6, 아이리더 오션, 아이리더 탱고 2S, Bigme HiBreak Pro, Hisense A9, Viwoods AiPaper
 
 - **어떤 기기에서 쓸 수 있나요?** 안드로이드 9 이상의 전자잉크 기기에서 씁니다. 크레마 페블에 맞춰 만들었고, 메이북 E6, 교보 sam 7 mono, BOOX Leaf·Poke3·Palma, iReader Ocean 5 Pro·Tango, Viwoods AiPaper Mini 등에서 쓰고 있습니다. 화면 크기가 달라도 같은 비율로 맞춰 그립니다. 킨들·코보 기기처럼 안드로이드 앱을 깔 수 없는 기기에서는 쓸 수 없습니다.
 - **무료인가요?** 무료이고 광고도 없습니다. 비상업적 용도로 자유롭게 쓸 수 있습니다(PolyForm Noncommercial 1.0.0).
