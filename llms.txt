@@ -17,8 +17,8 @@ It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.
 
 ## Devices
 
-- In use on: Crema Pebble, Meebook E6, Kyobo sam 7 mono, BOOX Palma, BOOX Leaf, BOOX Leaf2, BOOX Poke3, BOOX Poke6, iReader Ocean 5 Pro, iReader Tango, iReader Neo 3 Ultra, Viwoods AiPaper Mini, Moaan MIX7S, Minimal Phone.
-- Other Android E Ink readers (Android 9 or later, can install apps and change the home app) should work too but are not verified: Crema Motif, Crema Grande, Crema S, Crema Palette, Meebook M6, Meebook M7, Meebook M8, BOOX Palma 2, BOOX Poke5, BOOX Leaf3, BOOX Page, BOOX Note Air, BOOX Tab Ultra, BOOX Go 6, iReader Ocean, iReader Tango 2S, Bigme HiBreak Pro, Hisense A9, Viwoods AiPaper.
+- In use on: Crema Pebble (크레마 페블), Meebook E6 (메이북 E6), Kyobo sam 7 mono (교보 sam 7 mono), BOOX Palma (오닉스 BOOX 팔마), BOOX Leaf (BOOX 리프), BOOX Leaf2 (BOOX 리프2), BOOX Poke3 (BOOX 포크3), BOOX Poke6 (BOOX 포크6), iReader Ocean 5 Pro (아이리더 오션 5 프로), iReader Tango (아이리더 탱고), iReader Neo 3 Ultra (아이리더 네오 3 울트라), Viwoods AiPaper Mini (Viwoods AiPaper Mini), Moaan MIX7S (Moaan MIX7S), Minimal Phone (Minimal Phone).
+- Other Android E Ink readers (Android 9 or later, can install apps and change the home app) should work too but are not verified: Crema Motif (크레마 모티프), Crema Grande (크레마 그랑데), Crema S (크레마 S), Crema Palette (크레마 팔레트), Meebook M6 (메이북 M6), Meebook M7 (메이북 M7), Meebook M8 (메이북 M8), BOOX Palma 2 (BOOX 팔마 2), BOOX Poke5 (BOOX 포크5), BOOX Leaf3 (BOOX 리프3), BOOX Page (BOOX 페이지), BOOX Note Air (BOOX 노트 에어), BOOX Tab Ultra (BOOX 탭 울트라), BOOX Go 6 (BOOX 고 6), iReader Ocean (아이리더 오션), iReader Tango 2S (아이리더 탱고 2S), Bigme HiBreak Pro (Bigme HiBreak Pro), Hisense A9 (Hisense A9), Viwoods AiPaper (Viwoods AiPaper).
 - Not supported: Kindle and Kobo readers (no Android apps), devices on Android 8 or earlier (e.g. InkPalm 5).
 
 ## FAQ
@@ -34,7 +34,7 @@ It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.
 크레마 페블, 메이북, BOOX 팔마, 아이리더 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.
 
 - 쓰고 있는 기기: 크레마 페블, 메이북 E6, 교보 sam 7 mono, 오닉스 BOOX 팔마, BOOX 리프, BOOX 리프2, BOOX 포크3, BOOX 포크6, 아이리더 오션 5 프로, 아이리더 탱고, 아이리더 네오 3 울트라, Viwoods AiPaper Mini, Moaan MIX7S, Minimal Phone
-- 그 밖의 안드로이드 전자잉크 기기(안드로이드 9 이상, 앱 설치·기본 홈 앱 바꾸기가 되는 기기)도 쓸 수 있지만 확인하지 않았다: 크레마 모티프, 크레마 그랑데, 크레마 S, 크레마 팔레트, 크레마 클럽, 메이북 M6, 메이북 M7, 메이북 M8, BOOX 팔마 2, BOOX 포크5, BOOX 리프3, BOOX 페이지, BOOX 노트 에어, BOOX 탭 울트라, BOOX 고 6, 아이리더 오션, 아이리더 탱고 2S, Bigme HiBreak Pro, Hisense A9, Viwoods AiPaper
+- 그 밖의 안드로이드 전자잉크 기기(안드로이드 9 이상, 앱 설치·기본 홈 앱 바꾸기가 되는 기기)도 쓸 수 있지만 확인하지 않았다: 크레마 모티프, 크레마 그랑데, 크레마 S, 크레마 팔레트, 메이북 M6, 메이북 M7, 메이북 M8, BOOX 팔마 2, BOOX 포크5, BOOX 리프3, BOOX 페이지, BOOX 노트 에어, BOOX 탭 울트라, BOOX 고 6, 아이리더 오션, 아이리더 탱고 2S, Bigme HiBreak Pro, Hisense A9, Viwoods AiPaper
 
 - **어떤 기기에서 쓸 수 있나요?** 안드로이드 9 이상의 전자잉크 기기에서 씁니다. 크레마 페블에 맞춰 만들었고, 메이북 E6, 교보 sam 7 mono, BOOX Leaf·Poke3·Palma, iReader Ocean 5 Pro·Tango, Viwoods AiPaper Mini 등에서 쓰고 있습니다. 화면 크기가 달라도 같은 비율로 맞춰 그립니다. 킨들·코보 기기처럼 안드로이드 앱을 깔 수 없는 기기에서는 쓸 수 없습니다.
 - **무료인가요?** 무료이고 광고도 없습니다. 비상업적 용도로 자유롭게 쓸 수 있습니다(PolyForm Noncommercial 1.0.0).
