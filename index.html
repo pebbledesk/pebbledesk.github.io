@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebble Desk — 크레마 페블·전자잉크 이북리더용 런처</title>
+<meta name="description" content="크레마 페블, 메이북, BOOX 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.">
+<link rel="canonical" href="https://pebbledesk.github.io/">
+<link rel="alternate" hreflang="ko" href="https://pebbledesk.github.io/">
+<link rel="alternate" hreflang="en" href="https://pebbledesk.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://pebbledesk.github.io/">
+<meta name="theme-color" content="#fbfbf9">
+<link rel="icon" href="img/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pebble Desk">
+<meta property="og:title" content="Pebble Desk — 크레마 페블·전자잉크 이북리더용 런처">
+<meta property="og:description" content="크레마 페블, 메이북, BOOX 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.">
+<meta property="og:url" content="https://pebbledesk.github.io/">
+<meta property="og:image" content="https://pebbledesk.github.io/img/og-ko.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pebble Desk — 크레마 페블·전자잉크 이북리더용 런처">
+<meta name="twitter:description" content="크레마 페블, 메이북, BOOX 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.">
+<meta name="twitter:image" content="https://pebbledesk.github.io/img/og-ko.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://pebbledesk.github.io/#website",
+   "url": "https://pebbledesk.github.io/",
+   "name": "Pebble Desk",
+   "inLanguage": [
+    "ko",
+    "en"
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://pebbledesk.github.io/#app",
+   "name": "Pebble Desk",
+   "url": "https://pebbledesk.github.io/",
+   "description": "크레마 페블, 메이북, BOOX 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.",
+   "inLanguage": "ko",
+   "applicationCategory": "UtilitiesApplication",
+   "applicationSubCategory": "Launcher",
+   "operatingSystem": "Android 9.0 or later",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "KRW"
+   },
+   "isAccessibleForFree": true,
+   "downloadUrl": "https://github.com/hissinger/pebble-desk/releases/latest",
+   "installUrl": "https://github.com/hissinger/pebble-desk/releases/latest",
+   "codeRepository": "https://github.com/hissinger/pebble-desk",
+   "license": "https://github.com/hissinger/pebble-desk/blob/main/LICENSE",
+   "image": "https://pebbledesk.github.io/img/og-ko.png",
+   "screenshot": [
+    "https://pebbledesk.github.io/img/pebble-home.webp",
+    "https://pebbledesk.github.io/img/pebble-reading.webp",
+    "https://pebbledesk.github.io/img/pebble-year.webp",
+    "https://pebbledesk.github.io/img/bar-home.webp",
+    "https://pebbledesk.github.io/img/bar-reading.webp",
+    "https://pebbledesk.github.io/img/bar-year.webp"
+   ],
+   "featureList": [
+    "이북 앱에서 편 책을 홈 화면에 자동으로 추가(표지·제목·진행률·반납일)",
+    "책마다 읽은 시간, 하루 목표, 연속일",
+    "올해 읽은 책과 완독 기록(별점·감상, 다시 읽기 회차)",
+    "스크롤 대신 쪽 넘김, 애니메이션 없음",
+    "흑백·컬러 화면, 글자 크기·줄 간격"
+   ],
+   "author": {
+    "@type": "Person",
+    "name": "hissinger",
+    "url": "https://github.com/hissinger"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://pebbledesk.github.io/#faq",
+   "inLanguage": "ko",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "어떤 기기에서 쓸 수 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "안드로이드 9 이상의 전자잉크 기기에서 씁니다. 크레마 페블에 맞춰 만들었고, 메이북 E6, 교보 sam 7 mono, BOOX Leaf·Poke3·Palma, iReader Ocean 5 Pro·Tango, Viwoods AiPaper Mini 등에서 쓰고 있습니다. 화면 크기가 달라도 같은 비율로 맞춰 그립니다. 킨들·코보 기기처럼 안드로이드 앱을 깔 수 없는 기기에서는 쓸 수 없습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "무료인가요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "무료이고 광고도 없습니다. 비상업적 용도로 자유롭게 쓸 수 있습니다(PolyForm Noncommercial 1.0.0)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "어떻게 설치하나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "GitHub 릴리스에서 APK 를 받아 기기에 옮기고 파일 관리자에서 눌러 설치합니다. 처음 한 번 '알 수 없는 앱 설치'를 허용합니다. 그다음 Pebble Desk 설정 › 앱 관리 › 기본 홈 앱에서 홈 앱으로 고릅니다. 다음 판부터는 설정 › 정보 › 업데이트에서 받습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "접근성 권한은 왜 필요한가요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "이북 앱에서 편 책을 알아보려고 씁니다. 지원하는 이북 앱의 화면만 받고, 다른 앱의 화면은 보지 않습니다. 읽은 시간은 안드로이드의 '사용 기록 액세스'로 셉니다. 둘 다 켜지 않아도 런처로는 쓸 수 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "기록은 어디에 저장되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "기기 안에만 저장되고 어디로도 보내지 않습니다. 인터넷은 표지 검색(YES24)과 새 판 확인(GitHub)에만 씁니다. 앱을 지우면 기록도 함께 지워집니다."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+  :root {
+    --bg: #fbfbf9;
+    --ink: #111;
+    --sub: #6b6b68;
+    --line: #dddcd7;
+    /* 기기 사진의 높이(두 대가 같은 높이: 페블 폭 0.706, 팔마 폭 0.527) */
+    --h: min(640px, calc((100vw - 32px) / 1.31));
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 48px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  a { color: inherit; }
+  .nw { white-space: nowrap; }
+
+  /* 위 줄: 지금 보는 구역이 진하게 */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(251, 251, 249, .86);
+    backdrop-filter: saturate(1.4) blur(14px);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .in {
+    max-width: 980px; margin: 0 auto; padding: 0 16px;
+    height: 48px; display: flex; align-items: center; gap: 22px;
+    font-size: 14px;
+  }
+  nav .name { font-weight: 700; text-decoration: none; margin-right: auto; font-size: 16px; }
+  nav a { text-decoration: none; color: var(--sub); }
+  nav a:hover, nav a.now { color: var(--ink); }
+  nav a.now { font-weight: 600; }
+  nav .gh { display: flex; color: var(--ink); }
+  nav .lang { color: var(--sub); }
+  @media (max-width: 560px) { nav .opt { display: none; } }
+
+  section { padding: 120px 16px 0; text-align: center; }
+  section:last-of-type { padding-bottom: 120px; }
+  .kicker { font-size: 15px; color: var(--sub); margin: 0 0 14px; }
+  h1, h2 { margin: 0; font-weight: 700; letter-spacing: -0.02em; line-height: 1.18; }
+  h1 { font-size: clamp(40px, 8vw, 76px); }
+  h2 { font-size: clamp(32px, 6vw, 56px); }
+  .lead {
+    max-width: 620px; margin: 22px auto 0;
+    font-size: clamp(17px, 2.2vw, 21px); color: var(--sub);
+    text-wrap: balance;
+  }
+  .actions { margin-top: 30px; display: flex; gap: 22px; justify-content: center; align-items: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 11px 24px; border-radius: 999px;
+    background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 600; font-size: 16px;
+  }
+  .btn:hover, nav .gh:hover { opacity: .7; }
+
+  /* 기기 두 대: 실제 기기 사진(바탕을 뺀 흑백) 위에 앱 화면을 곱하기로 얹는다 */
+  .pair {
+    display: flex; justify-content: center; align-items: flex-end;
+    gap: calc(var(--h) * .08);
+    margin: 56px auto 0;
+  }
+  figure { margin: 0; }
+  .device { position: relative; height: var(--h); filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .12)) drop-shadow(0 18px 28px rgba(0, 0, 0, .14)); }
+  .device img { display: block; }
+  .device .shot { mix-blend-mode: multiply; }
+  .device .frame { height: 100%; width: auto; }
+  .device .shot { position: absolute; }
+  .pebble { aspect-ratio: 637 / 902; }
+  .pebble .shot { left: 10.20%; top: 8.54%; width: 79.12%; height: 75.94%; }
+  .palma { aspect-ratio: 434 / 823; }
+  .palma .shot { left: 10.37%; top: 7.17%; width: 79.49%; height: 84.33%; border-radius: 4.6% / 2.3%; }
+
+  /* 자동 추가 */
+  .steps {
+    max-width: 860px; margin: 64px auto 0; padding: 0;
+    list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
+    text-align: left; counter-reset: s;
+  }
+  .steps li { border-top: 1px solid var(--ink); padding-top: 14px; counter-increment: s; }
+  .steps li::before { content: counter(s); display: block; font-weight: 700; font-size: 15px; margin-bottom: 6px; }
+  .steps b { display: block; font-size: 19px; margin-bottom: 4px; }
+  .steps span { color: var(--sub); font-size: 16px; }
+  @media (max-width: 680px) { .steps { grid-template-columns: 1fr; gap: 24px; } }
+
+  /* 지원 앱: 아이콘을 가로 한 줄로(좁으면 옆으로 밀어서) */
+  .apps { margin: 80px -16px 0; }
+  .apps h3 { font-size: 15px; font-weight: 600; color: var(--sub); margin: 0 0 22px; }
+  .apps ul {
+    list-style: none; margin: 0; padding: 4px 16px 12px;
+    display: flex; justify-content: safe center; gap: 8px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .apps ul::-webkit-scrollbar { display: none; }
+  .apps li { flex: 0 0 84px; font-size: 13px; line-height: 1.35; color: var(--ink); }
+  .apps img {
+    display: block; width: 60px; height: 60px; margin: 0 auto 9px;
+    border-radius: 14px; box-shadow: 0 0 0 1px rgba(0, 0, 0, .07);
+  }
+
+  /* 전자잉크 */
+  .eink {
+    max-width: 860px; margin: 64px auto 0; padding: 0; list-style: none;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; text-align: left;
+  }
+  .eink li { border-top: 1px solid var(--line); padding-top: 14px; }
+  .eink b { display: block; font-size: 19px; margin-bottom: 4px; }
+  .eink span, .steps span { text-wrap: pretty; }
+  .eink span { color: var(--sub); font-size: 16px; }
+  @media (max-width: 680px) { .eink { grid-template-columns: 1fr; gap: 24px; } }
+
+  /* 자주 묻는 질문 */
+  .faq { max-width: 720px; margin: 56px auto 0; text-align: left; }
+  .faq div { border-top: 1px solid var(--line); padding: 20px 0; }
+  .faq dt { font-weight: 600; font-size: 18px; margin: 0 0 6px; }
+  .faq dd { margin: 0; color: var(--sub); font-size: 16px; text-wrap: pretty; }
+
+  footer {
+    border-top: 1px solid var(--line); padding: 28px 16px 40px;
+    font-size: 13px; color: var(--sub); text-align: center; line-height: 1.8;
+  }
+  footer a { text-decoration: none; }
+
+  /* 스크롤하면 한 번 떠오른다 */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.on { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="in">
+    <a class="name" href="#top">Pebble Desk</a>
+    <a class="opt" href="#auto">자동 추가</a>
+    <a class="opt" href="#record">독서 기록</a>
+    <a class="opt" href="#year">올해 읽은 책</a>
+    <a class="lang" href="en/" hreflang="en" lang="en">EN</a>
+    <a class="gh" href="https://github.com/hissinger/pebble-desk" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+  </div>
+</nav>
+
+<main id="top">
+  <section>
+    <p class="kicker">전자잉크 기기를 위한 런처</p>
+    <h1>지금 읽는 책을<br>홈 화면에.</h1>
+    <p class="lead">읽고 있는 책, 자주 쓰는 앱, <span class="nw">오늘 읽은 시간만</span> 둡니다. <span class="nw">나머지는 글자로,</span> <span class="nw">한 쪽씩.</span></p>
+    <div class="actions">
+      <a class="btn" href="https://github.com/hissinger/pebble-desk/releases/latest">APK 받기</a>
+    </div>
+    <div class="pair">
+      <div class="device pebble"><img class="frame" src="img/frame-pebble.webp" alt="" width="637" height="902"><img class="shot" src="img/pebble-home.webp" alt="크레마 페블의 홈 화면: 읽고 있는 책 데미안, 함께 읽는 책 세 권, 자주 쓰는 앱, 오늘 38분 · 14일째" width="760" height="1032"></div>
+      <div class="device palma"><img class="frame" src="img/frame-palma.webp" alt="" width="434" height="823"><img class="shot" src="img/bar-home.webp" alt="BOOX 팔마의 홈 화면" width="560" height="1120"></div>
+    </div>
+  </section>
+
+  <section id="auto">
+    <h2>책은 펴기만 하면<br>홈에 들어옵니다.</h2>
+    <p class="lead">이북 앱에서 책을 펴면 <span class="nw">표지와 제목,</span> <span class="nw">진행률, 반납일까지 가져와</span> <span class="nw">홈 맨 앞에 둡니다.</span> <span class="nw">직접 넣을 일이 없습니다.</span></p>
+    <ol class="steps reveal">
+      <li><b>이북 앱에서 책을 엽니다</b><span>서재에서 누르거나, 읽던 책을 이어서.</span></li>
+      <li><b>홈으로 돌아오면 맨 앞에</b><span>서재의 표지를 잘라 오고, 읽은 만큼 진행률이 바뀝니다.</span></li>
+      <li><b>누르면 그 앱으로</b><span>책마다 읽는 앱을 기억해 바로 엽니다.</span></li>
+    </ol>
+    <div class="apps reveal">
+      <h3>자동으로 추가되는 앱</h3>
+      <ul>
+        <li><img src="img/apps/kyobo-library.png" alt="">교보도서관</li>
+        <li><img src="img/apps/kyobo-ebook.png" alt="">교보eBook</li>
+        <li><img src="img/apps/millie.png" alt="">밀리의서재</li>
+        <li><img src="img/apps/aladin.png" alt="">알라딘</li>
+        <li><img src="img/apps/bookers.png" alt="">북커스</li>
+        <li><img src="img/apps/ridi.png" alt="">리디</li>
+        <li><img src="img/apps/yes24-library.png" alt="">YES24 전자도서관</li>
+        <li><img src="img/apps/myyes.png" alt="">my YES</li>
+        <li><img src="img/apps/yes24-ebook.png" alt="">YES24 eBook</li>
+        <li><img src="img/apps/moonreader.png" alt="">Moon+ Reader</li>
+        <li><img src="img/apps/kindle.png" alt="">Kindle</li>
+        <li><img src="img/apps/libby.png" alt="">Libby</li>
+        <li><img src="img/apps/koreader.png" alt="">KOReader</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="record">
+    <h2>읽은 시간은<br>책마다 남습니다.</h2>
+    <p class="lead">이북 앱의 읽는 화면이 떠 있던 시간만 셉니다. <span class="nw">하루 목표를 채우면</span> <span class="nw">링이 닫히고,</span> <span class="nw">5분 넘게 읽은 날이 이어지면</span> <span class="nw">연속일이 됩니다.</span></p>
+    <div class="pair reveal">
+      <figure>
+        <div class="device pebble"><img class="frame" src="img/frame-pebble.webp" alt="" width="637" height="902" loading="lazy"><img class="shot" src="img/pebble-reading.webp" alt="독서 기록 화면: 14일 연속, 오늘 38분, 4주 달력, 이번 주 읽은 책" width="760" height="1032" loading="lazy"></div>
+      </figure>
+      <figure>
+        <div class="device palma"><img class="frame" src="img/frame-palma.webp" alt="" width="434" height="823" loading="lazy"><img class="shot" src="img/bar-reading.webp" alt="팔마의 독서 기록 화면: 달력과 막대그래프를 함께" width="560" height="1120" loading="lazy"></div>
+      </figure>
+    </div>
+  </section>
+
+  <section id="year">
+    <h2>다 읽은 책은<br>한 해의 서가로.</h2>
+    <p class="lead">완독하면 <span class="nw">별점과 한 줄 감상을 남기고,</span> <span class="nw">표지에 완독 띠를 두릅니다.</span> <span class="nw">같은 책을 다시 읽으면</span> <span class="nw">회차가 하나 더 늘어납니다.</span></p>
+    <div class="pair reveal">
+      <figure>
+        <div class="device pebble"><img class="frame" src="img/frame-pebble.webp" alt="" width="637" height="902" loading="lazy"><img class="shot" src="img/pebble-year.webp" alt="올해 읽은 책 화면: 16권의 표지 격자, 완독한 책에는 완독 띠와 별점" width="760" height="1032" loading="lazy"></div>
+      </figure>
+      <figure>
+        <div class="device palma"><img class="frame" src="img/frame-palma.webp" alt="" width="434" height="823" loading="lazy"><img class="shot" src="img/bar-year.webp" alt="팔마의 올해 읽은 책 화면" width="560" height="1120" loading="lazy"></div>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>전자잉크에 맞춰<br>덜 움직입니다.</h2>
+    <ul class="eink reveal">
+      <li><b>애니메이션 없음</b><span>화면이 바뀔 때 깜빡임을 줄이려고 움직이는 것을 두지 않았습니다.</span></li>
+      <li><b>스크롤 대신 쪽</b><span>목록은 한 쪽씩 넘깁니다. 밀거나 <span class="nw">‹ 1 / 2 › 를</span> 누릅니다.</span></li>
+      <li><b>바뀐 곳만 다시</b><span>시계가 바뀌면 시계만. 부팅 직후에도 <span class="nw">바로 뜹니다.</span></span></li>
+    </ul>
+  </section>
+  <section id="faq">
+    <h2>자주 묻는 질문</h2>
+    <dl class="faq">
+      <div><dt>어떤 기기에서 쓸 수 있나요?</dt><dd>안드로이드 9 이상의 전자잉크 기기에서 씁니다. 크레마 페블에 맞춰 만들었고, 메이북 E6, 교보 sam 7 mono, BOOX Leaf·Poke3·Palma, iReader Ocean 5 Pro·Tango, Viwoods AiPaper Mini 등에서 쓰고 있습니다. 화면 크기가 달라도 같은 비율로 맞춰 그립니다. 킨들·코보 기기처럼 안드로이드 앱을 깔 수 없는 기기에서는 쓸 수 없습니다.</dd></div>
+      <div><dt>무료인가요?</dt><dd>무료이고 광고도 없습니다. 비상업적 용도로 자유롭게 쓸 수 있습니다(PolyForm Noncommercial 1.0.0).</dd></div>
+      <div><dt>어떻게 설치하나요?</dt><dd>GitHub 릴리스에서 APK 를 받아 기기에 옮기고 파일 관리자에서 눌러 설치합니다. 처음 한 번 '알 수 없는 앱 설치'를 허용합니다. 그다음 Pebble Desk 설정 › 앱 관리 › 기본 홈 앱에서 홈 앱으로 고릅니다. 다음 판부터는 설정 › 정보 › 업데이트에서 받습니다.</dd></div>
+      <div><dt>접근성 권한은 왜 필요한가요?</dt><dd>이북 앱에서 편 책을 알아보려고 씁니다. 지원하는 이북 앱의 화면만 받고, 다른 앱의 화면은 보지 않습니다. 읽은 시간은 안드로이드의 '사용 기록 액세스'로 셉니다. 둘 다 켜지 않아도 런처로는 쓸 수 있습니다.</dd></div>
+      <div><dt>기록은 어디에 저장되나요?</dt><dd>기기 안에만 저장되고 어디로도 보내지 않습니다. 인터넷은 표지 검색(YES24)과 새 판 확인(GitHub)에만 씁니다. 앱을 지우면 기록도 함께 지워집니다.</dd></div>
+    </dl>
+    <div class="actions" style="margin-top: 56px">
+      <a class="btn" href="https://github.com/hissinger/pebble-desk/releases/latest">APK 받기</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  문의 <a href="mailto:loje75@gmail.com">loje75@gmail.com</a><br>
+  화면 속 책과 기록은 예시입니다. 표지는 YES24 표지를 썼습니다.<br>
+  © 2026 hissinger · <a href="https://github.com/hissinger/pebble-desk/blob/main/LICENSE">PolyForm Noncommercial 1.0.0</a>
+</footer>
+
+<script>
+  // 기기 그림은 화면에 들어올 때 한 번만 떠오른다
+  const io = 'IntersectionObserver' in window && new IntersectionObserver((es) => {
+    for (const e of es) if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); }
+  }, { rootMargin: '0px 0px -12% 0px' });
+  document.querySelectorAll('.reveal').forEach((el) => io ? io.observe(el) : el.classList.add('on'));
+
+  // 위 줄: 화면 가운데를 지나는 구역의 메뉴를 진하게
+  const links = [...document.querySelectorAll('nav a.opt')];
+  const sections = links.map((a) => document.querySelector(a.getAttribute('href')));
+  function spy() {
+    const mid = innerHeight / 2;
+    let now = -1;
+    sections.forEach((s, i) => { const r = s.getBoundingClientRect(); if (r.top <= mid && r.bottom > mid) now = i; });
+    links.forEach((a, i) => a.classList.toggle('now', i === now));
+  }
+  addEventListener('scroll', spy, { passive: true });
+  addEventListener('resize', spy);
+  spy();
+</script>
+</body>
+</html>

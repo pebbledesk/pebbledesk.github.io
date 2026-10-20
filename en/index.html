@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pebble Desk — A launcher for Android E Ink readers</title>
+<meta name="description" content="A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook and BOOX. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.">
+<link rel="canonical" href="https://pebbledesk.github.io/en/">
+<link rel="alternate" hreflang="en" href="https://pebbledesk.github.io/en/">
+<link rel="alternate" hreflang="ko" href="https://pebbledesk.github.io/">
+<link rel="alternate" hreflang="x-default" href="https://pebbledesk.github.io/">
+<meta name="theme-color" content="#fbfbf9">
+<link rel="icon" href="../img/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../img/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pebble Desk">
+<meta property="og:title" content="Pebble Desk — A launcher for Android E Ink readers">
+<meta property="og:description" content="A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook and BOOX. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.">
+<meta property="og:url" content="https://pebbledesk.github.io/en/">
+<meta property="og:image" content="https://pebbledesk.github.io/img/og-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pebble Desk — A launcher for Android E Ink readers">
+<meta name="twitter:description" content="A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook and BOOX. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.">
+<meta name="twitter:image" content="https://pebbledesk.github.io/img/og-en.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://pebbledesk.github.io/#website",
+   "url": "https://pebbledesk.github.io/",
+   "name": "Pebble Desk",
+   "inLanguage": [
+    "ko",
+    "en"
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://pebbledesk.github.io/en/#app",
+   "name": "Pebble Desk",
+   "url": "https://pebbledesk.github.io/en/",
+   "description": "A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook and BOOX. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.",
+   "inLanguage": "en",
+   "applicationCategory": "UtilitiesApplication",
+   "applicationSubCategory": "Launcher",
+   "operatingSystem": "Android 9.0 or later",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "isAccessibleForFree": true,
+   "downloadUrl": "https://github.com/hissinger/pebble-desk/releases/latest",
+   "installUrl": "https://github.com/hissinger/pebble-desk/releases/latest",
+   "codeRepository": "https://github.com/hissinger/pebble-desk",
+   "license": "https://github.com/hissinger/pebble-desk/blob/main/LICENSE",
+   "image": "https://pebbledesk.github.io/img/og-en.png",
+   "screenshot": [
+    "https://pebbledesk.github.io/img/en-pebble-home.webp",
+    "https://pebbledesk.github.io/img/en-pebble-reading.webp",
+    "https://pebbledesk.github.io/img/en-pebble-year.webp",
+    "https://pebbledesk.github.io/img/en-bar-home.webp",
+    "https://pebbledesk.github.io/img/en-bar-reading.webp",
+    "https://pebbledesk.github.io/img/en-bar-year.webp"
+   ],
+   "featureList": [
+    "Books you open in reading apps are added to the home screen automatically (cover, title, progress, due date)",
+    "Reading time per book, daily goal and streak",
+    "Books this year with finish history (ratings, notes, re-reads)",
+    "Pages instead of scrolling, no animations",
+    "Black-and-white or color, adjustable text size and spacing"
+   ],
+   "author": {
+    "@type": "Person",
+    "name": "hissinger",
+    "url": "https://github.com/hissinger"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://pebbledesk.github.io/en/#faq",
+   "inLanguage": "en",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Which devices does it work on?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Android E Ink readers running Android 9 or later. It’s built for the Crema Pebble and is in use on the Meebook E6, Kyobo sam 7 mono, BOOX Leaf, Poke3 and Palma, iReader Ocean 5 Pro and Tango, Viwoods AiPaper Mini and more. On other screen sizes it scales to the same proportions. It can’t run on devices that don’t install Android apps, such as Kindle or Kobo readers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is it free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, and there are no ads. You can use it freely for noncommercial purposes (PolyForm Noncommercial 1.0.0)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I install it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Download the APK from GitHub Releases, copy it to your device and tap it in a file manager. Allow “install unknown apps” the first time. Then set Pebble Desk as your home app in its Settings › Apps › Default home app. Later versions install from Settings › About › Update."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why does it need the accessibility permission?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To recognize the book you open in a reading app. It only receives the screens of supported reading apps and doesn’t look at any other app. Reading time comes from Android’s Usage access. You can use it as a launcher without turning either on."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where is my reading history stored?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Only on your device; nothing is sent anywhere. The internet is used only to search covers (YES24) and to check for new versions (GitHub). Uninstalling the app deletes the history too."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+  :root {
+    --bg: #fbfbf9;
+    --ink: #111;
+    --sub: #6b6b68;
+    --line: #dddcd7;
+    /* 기기 사진의 높이(두 대가 같은 높이: 페블 폭 0.706, 팔마 폭 0.527) */
+    --h: min(640px, calc((100vw - 32px) / 1.31));
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 48px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    overflow-wrap: break-word;
+  }
+  a { color: inherit; }
+  .nw { white-space: nowrap; }
+
+  /* 위 줄: 지금 보는 구역이 진하게 */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(251, 251, 249, .86);
+    backdrop-filter: saturate(1.4) blur(14px);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .in {
+    max-width: 980px; margin: 0 auto; padding: 0 16px;
+    height: 48px; display: flex; align-items: center; gap: 22px;
+    font-size: 14px;
+  }
+  nav .name { font-weight: 700; text-decoration: none; margin-right: auto; font-size: 16px; }
+  nav a { text-decoration: none; color: var(--sub); }
+  nav a:hover, nav a.now { color: var(--ink); }
+  nav a.now { font-weight: 600; }
+  nav .gh { display: flex; color: var(--ink); }
+  nav .lang { color: var(--sub); }
+  @media (max-width: 560px) { nav .opt { display: none; } }
+
+  section { padding: 120px 16px 0; text-align: center; }
+  section:last-of-type { padding-bottom: 120px; }
+  .kicker { font-size: 15px; color: var(--sub); margin: 0 0 14px; }
+  h1, h2 { margin: 0; font-weight: 700; letter-spacing: -0.02em; line-height: 1.18; }
+  h1 { font-size: clamp(40px, 8vw, 76px); }
+  h2 { font-size: clamp(32px, 6vw, 56px); }
+  .lead {
+    max-width: 620px; margin: 22px auto 0;
+    font-size: clamp(17px, 2.2vw, 21px); color: var(--sub);
+    text-wrap: balance;
+  }
+  .actions { margin-top: 30px; display: flex; gap: 22px; justify-content: center; align-items: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 11px 24px; border-radius: 999px;
+    background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 600; font-size: 16px;
+  }
+  .btn:hover, nav .gh:hover { opacity: .7; }
+
+  /* 기기 두 대: 실제 기기 사진(바탕을 뺀 흑백) 위에 앱 화면을 곱하기로 얹는다 */
+  .pair {
+    display: flex; justify-content: center; align-items: flex-end;
+    gap: calc(var(--h) * .08);
+    margin: 56px auto 0;
+  }
+  figure { margin: 0; }
+  .device { position: relative; height: var(--h); filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .12)) drop-shadow(0 18px 28px rgba(0, 0, 0, .14)); }
+  .device img { display: block; }
+  .device .shot { mix-blend-mode: multiply; }
+  .device .frame { height: 100%; width: auto; }
+  .device .shot { position: absolute; }
+  .pebble { aspect-ratio: 637 / 902; }
+  .pebble .shot { left: 10.20%; top: 8.54%; width: 79.12%; height: 75.94%; }
+  .palma { aspect-ratio: 434 / 823; }
+  .palma .shot { left: 10.37%; top: 7.17%; width: 79.49%; height: 84.33%; border-radius: 4.6% / 2.3%; }
+
+  /* 자동 추가 */
+  .steps {
+    max-width: 860px; margin: 64px auto 0; padding: 0;
+    list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
+    text-align: left; counter-reset: s;
+  }
+  .steps li { border-top: 1px solid var(--ink); padding-top: 14px; counter-increment: s; }
+  .steps li::before { content: counter(s); display: block; font-weight: 700; font-size: 15px; margin-bottom: 6px; }
+  .steps b { display: block; font-size: 19px; margin-bottom: 4px; }
+  .steps span { color: var(--sub); font-size: 16px; }
+  @media (max-width: 680px) { .steps { grid-template-columns: 1fr; gap: 24px; } }
+
+  /* 지원 앱: 아이콘을 가로 한 줄로(좁으면 옆으로 밀어서) */
+  .apps { margin: 80px -16px 0; }
+  .apps h3 { font-size: 15px; font-weight: 600; color: var(--sub); margin: 0 0 22px; }
+  .apps ul {
+    list-style: none; margin: 0; padding: 4px 16px 12px;
+    display: flex; justify-content: safe center; gap: 8px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .apps ul::-webkit-scrollbar { display: none; }
+  .apps li { flex: 0 0 84px; font-size: 13px; line-height: 1.35; color: var(--ink); }
+  .apps img {
+    display: block; width: 60px; height: 60px; margin: 0 auto 9px;
+    border-radius: 14px; box-shadow: 0 0 0 1px rgba(0, 0, 0, .07);
+  }
+
+  /* 전자잉크 */
+  .eink {
+    max-width: 860px; margin: 64px auto 0; padding: 0; list-style: none;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; text-align: left;
+  }
+  .eink li { border-top: 1px solid var(--line); padding-top: 14px; }
+  .eink b { display: block; font-size: 19px; margin-bottom: 4px; }
+  .eink span, .steps span { text-wrap: pretty; }
+  .eink span { color: var(--sub); font-size: 16px; }
+  @media (max-width: 680px) { .eink { grid-template-columns: 1fr; gap: 24px; } }
+
+  /* 자주 묻는 질문 */
+  .faq { max-width: 720px; margin: 56px auto 0; text-align: left; }
+  .faq div { border-top: 1px solid var(--line); padding: 20px 0; }
+  .faq dt { font-weight: 600; font-size: 18px; margin: 0 0 6px; }
+  .faq dd { margin: 0; color: var(--sub); font-size: 16px; text-wrap: pretty; }
+
+  footer {
+    border-top: 1px solid var(--line); padding: 28px 16px 40px;
+    font-size: 13px; color: var(--sub); text-align: center; line-height: 1.8;
+  }
+  footer a { text-decoration: none; }
+
+  /* 스크롤하면 한 번 떠오른다 */
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.on { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="in">
+    <a class="name" href="#top">Pebble Desk</a>
+    <a class="opt" href="#auto">Auto-add</a>
+    <a class="opt" href="#record">Reading log</a>
+    <a class="opt" href="#year">Books this year</a>
+    <a class="lang" href="../" hreflang="ko" lang="ko">한국어</a>
+    <a class="gh" href="https://github.com/hissinger/pebble-desk" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+  </div>
+</nav>
+
+<main id="top">
+  <section>
+    <p class="kicker">A launcher for Android E Ink readers</p>
+    <h1>The book you’re reading,<br>on your home screen.</h1>
+    <p class="lead">Just three things: the book you’re reading, the apps you use most, and today’s reading time. Everything else is plain text, one page at a time.</p>
+    <div class="actions">
+      <a class="btn" href="https://github.com/hissinger/pebble-desk/releases/latest">Download APK</a>
+    </div>
+    <div class="pair">
+      <div class="device pebble"><img class="frame" src="../img/frame-pebble.webp" alt="" width="637" height="902"><img class="shot" src="../img/en-pebble-home.webp" alt="Home screen on the Crema Pebble: The Old Man and the Sea, three more books, favorite apps, today 38 min · day 15" width="760" height="1032"></div>
+      <div class="device palma"><img class="frame" src="../img/frame-palma.webp" alt="" width="434" height="823"><img class="shot" src="../img/en-bar-home.webp" alt="Home screen on the BOOX Palma" width="560" height="1120"></div>
+    </div>
+  </section>
+
+  <section id="auto">
+    <h2>Open a book.<br>It’s on your home screen.</h2>
+    <p class="lead">Open a book in your reading app and Pebble Desk picks up the cover, title, progress and even the loan due date, then puts it first on your home screen. Nothing to add by hand.</p>
+    <ol class="steps reveal">
+      <li><b>Open a book in your reading app</b><span>Tap it on your shelf, or pick up where you left off.</span></li>
+      <li><b>Go home. It’s first in line.</b><span>The cover comes from your shelf, and progress updates as you read.</span></li>
+      <li><b>Tap to jump back in</b><span>Each book remembers its app and opens it directly.</span></li>
+    </ol>
+    <div class="apps reveal">
+      <h3>Works with</h3>
+      <ul>
+        <li><img src="../img/apps/kindle.png" alt="">Kindle</li>
+        <li><img src="../img/apps/libby.png" alt="">Libby</li>
+        <li><img src="../img/apps/koreader.png" alt="">KOReader</li>
+        <li><img src="../img/apps/moonreader.png" alt="">Moon+ Reader</li>
+        <li><img src="../img/apps/kyobo-library.png" alt="">Kyobo Library</li>
+        <li><img src="../img/apps/kyobo-ebook.png" alt="">Kyobo eBook</li>
+        <li><img src="../img/apps/millie.png" alt="">millie</li>
+        <li><img src="../img/apps/aladin.png" alt="">Aladin</li>
+        <li><img src="../img/apps/bookers.png" alt="">Bookers</li>
+        <li><img src="../img/apps/ridi.png" alt="">RIDI</li>
+        <li><img src="../img/apps/yes24-library.png" alt="">YES24 Library</li>
+        <li><img src="../img/apps/myyes.png" alt="">my YES</li>
+        <li><img src="../img/apps/yes24-ebook.png" alt="">YES24 eBook</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="record">
+    <h2>Reading time,<br>kept for every book.</h2>
+    <p class="lead">Only time on the reading screen counts. Hit your daily goal and the ring closes. Read five minutes or more, day after day, and your streak grows.</p>
+    <div class="pair reveal">
+      <figure>
+        <div class="device pebble"><img class="frame" src="../img/frame-pebble.webp" alt="" width="637" height="902" loading="lazy"><img class="shot" src="../img/en-pebble-reading.webp" alt="Reading log: 15-day streak, 38 minutes today, four-week calendar, books this week" width="760" height="1032" loading="lazy"></div>
+      </figure>
+      <figure>
+        <div class="device palma"><img class="frame" src="../img/frame-palma.webp" alt="" width="434" height="823" loading="lazy"><img class="shot" src="../img/en-bar-reading.webp" alt="Reading log on the Palma: calendar and bar chart together" width="560" height="1120" loading="lazy"></div>
+      </figure>
+    </div>
+  </section>
+
+  <section id="year">
+    <h2>Finished books<br>fill a year’s shelf.</h2>
+    <p class="lead">When you finish a book, leave a rating and a line or two. Its cover gets a Finished band. Read it again and a new round begins.</p>
+    <div class="pair reveal">
+      <figure>
+        <div class="device pebble"><img class="frame" src="../img/frame-pebble.webp" alt="" width="637" height="902" loading="lazy"><img class="shot" src="../img/en-pebble-year.webp" alt="Books this year: 16 covers in a grid, finished books banded and rated" width="760" height="1032" loading="lazy"></div>
+      </figure>
+      <figure>
+        <div class="device palma"><img class="frame" src="../img/frame-palma.webp" alt="" width="434" height="823" loading="lazy"><img class="shot" src="../img/en-bar-year.webp" alt="Books this year on the Palma" width="560" height="1120" loading="lazy"></div>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Made for E Ink.<br>It moves less.</h2>
+    <ul class="eink reveal">
+      <li><b>No animations</b><span>Nothing slides or fades, so the screen flashes less.</span></li>
+      <li><b>Pages, not scrolling</b><span>Lists turn one page at a time. Swipe, or tap <span class="nw">‹ 1 / 2 ›.</span></span></li>
+      <li><b>Only what changed</b><span>When the clock ticks, only the clock is redrawn. It’s ready right after boot.</span></li>
+    </ul>
+  </section>
+  <section id="faq">
+    <h2>Questions</h2>
+    <dl class="faq">
+      <div><dt>Which devices does it work on?</dt><dd>Android E Ink readers running Android 9 or later. It’s built for the Crema Pebble and is in use on the Meebook E6, Kyobo sam 7 mono, BOOX Leaf, Poke3 and Palma, iReader Ocean 5 Pro and Tango, Viwoods AiPaper Mini and more. On other screen sizes it scales to the same proportions. It can’t run on devices that don’t install Android apps, such as Kindle or Kobo readers.</dd></div>
+      <div><dt>Is it free?</dt><dd>Yes, and there are no ads. You can use it freely for noncommercial purposes (PolyForm Noncommercial 1.0.0).</dd></div>
+      <div><dt>How do I install it?</dt><dd>Download the APK from GitHub Releases, copy it to your device and tap it in a file manager. Allow “install unknown apps” the first time. Then set Pebble Desk as your home app in its Settings › Apps › Default home app. Later versions install from Settings › About › Update.</dd></div>
+      <div><dt>Why does it need the accessibility permission?</dt><dd>To recognize the book you open in a reading app. It only receives the screens of supported reading apps and doesn’t look at any other app. Reading time comes from Android’s Usage access. You can use it as a launcher without turning either on.</dd></div>
+      <div><dt>Where is my reading history stored?</dt><dd>Only on your device; nothing is sent anywhere. The internet is used only to search covers (YES24) and to check for new versions (GitHub). Uninstalling the app deletes the history too.</dd></div>
+    </dl>
+    <div class="actions" style="margin-top: 56px">
+      <a class="btn" href="https://github.com/hissinger/pebble-desk/releases/latest">Download APK</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Contact <a href="mailto:loje75@gmail.com">loje75@gmail.com</a><br>
+  Books and reading history on screen are examples. Covers from YES24.<br>
+  © 2026 hissinger · <a href="https://github.com/hissinger/pebble-desk/blob/main/LICENSE">PolyForm Noncommercial 1.0.0</a>
+</footer>
+
+<script>
+  // Devices fade in once as they come into view
+  const io = 'IntersectionObserver' in window && new IntersectionObserver((es) => {
+    for (const e of es) if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); }
+  }, { rootMargin: '0px 0px -12% 0px' });
+  document.querySelectorAll('.reveal').forEach((el) => io ? io.observe(el) : el.classList.add('on'));
+
+  // Nav: highlight the section crossing the middle of the screen
+  const links = [...document.querySelectorAll('nav a.opt')];
+  const sections = links.map((a) => document.querySelector(a.getAttribute('href')));
+  function spy() {
+    const mid = innerHeight / 2;
+    let now = -1;
+    sections.forEach((s, i) => { const r = s.getBoundingClientRect(); if (r.top <= mid && r.bottom > mid) now = i; });
+    links.forEach((a, i) => a.classList.toggle('now', i === now));
+  }
+  addEventListener('scroll', spy, { passive: true });
+  addEventListener('resize', spy);
+  spy();
+</script>
+</body>
+</html>

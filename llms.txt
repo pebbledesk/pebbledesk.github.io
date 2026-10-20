@@ -1,0 +1,42 @@
+# Pebble Desk
+
+> A free, text-first launcher for Android E Ink readers like the Crema Pebble, Meebook and BOOX. Books you open in Kindle, Libby, KOReader and more appear on your home screen, and reading time is kept for every book.
+
+Pebble Desk (페블 데스크) is a home-screen app (launcher) for Android E Ink readers, made for the Crema Pebble (6", 1072×1456).
+The home screen shows the book you are reading, three more books you are reading, favorite apps and today’s reading time.
+It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.0.0).
+
+## Features
+
+- Books you open in reading apps are added to the home screen automatically (cover, title, progress, due date)
+- Reading time per book, daily goal and streak
+- Books this year with finish history (ratings, notes, re-reads)
+- Pages instead of scrolling, no animations
+- Black-and-white or color, adjustable text size and spacing
+- Supported reading apps (auto-add): Kindle, Libby, KOReader, Moon+ Reader, Kyobo Library, Kyobo eBook, millie (밀리의서재), Aladin, Bookers, RIDI, YES24 Library, my YES, YES24 eBook, NeoReader (BOOX)
+
+## FAQ
+
+- **Which devices does it work on?** Android E Ink readers running Android 9 or later. It’s built for the Crema Pebble and is in use on the Meebook E6, Kyobo sam 7 mono, BOOX Leaf, Poke3 and Palma, iReader Ocean 5 Pro and Tango, Viwoods AiPaper Mini and more. On other screen sizes it scales to the same proportions. It can’t run on devices that don’t install Android apps, such as Kindle or Kobo readers.
+- **Is it free?** Yes, and there are no ads. You can use it freely for noncommercial purposes (PolyForm Noncommercial 1.0.0).
+- **How do I install it?** Download the APK from GitHub Releases, copy it to your device and tap it in a file manager. Allow “install unknown apps” the first time. Then set Pebble Desk as your home app in its Settings › Apps › Default home app. Later versions install from Settings › About › Update.
+- **Why does it need the accessibility permission?** To recognize the book you open in a reading app. It only receives the screens of supported reading apps and doesn’t look at any other app. Reading time comes from Android’s Usage access. You can use it as a launcher without turning either on.
+- **Where is my reading history stored?** Only on your device; nothing is sent anywhere. The internet is used only to search covers (YES24) and to check for new versions (GitHub). Uninstalling the app deletes the history too.
+
+## 한국어 요약
+
+크레마 페블, 메이북, BOOX 같은 안드로이드 전자잉크 이북리더를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.
+
+- **어떤 기기에서 쓸 수 있나요?** 안드로이드 9 이상의 전자잉크 기기에서 씁니다. 크레마 페블에 맞춰 만들었고, 메이북 E6, 교보 sam 7 mono, BOOX Leaf·Poke3·Palma, iReader Ocean 5 Pro·Tango, Viwoods AiPaper Mini 등에서 쓰고 있습니다. 화면 크기가 달라도 같은 비율로 맞춰 그립니다. 킨들·코보 기기처럼 안드로이드 앱을 깔 수 없는 기기에서는 쓸 수 없습니다.
+- **무료인가요?** 무료이고 광고도 없습니다. 비상업적 용도로 자유롭게 쓸 수 있습니다(PolyForm Noncommercial 1.0.0).
+- **어떻게 설치하나요?** GitHub 릴리스에서 APK 를 받아 기기에 옮기고 파일 관리자에서 눌러 설치합니다. 처음 한 번 '알 수 없는 앱 설치'를 허용합니다. 그다음 Pebble Desk 설정 › 앱 관리 › 기본 홈 앱에서 홈 앱으로 고릅니다. 다음 판부터는 설정 › 정보 › 업데이트에서 받습니다.
+- **접근성 권한은 왜 필요한가요?** 이북 앱에서 편 책을 알아보려고 씁니다. 지원하는 이북 앱의 화면만 받고, 다른 앱의 화면은 보지 않습니다. 읽은 시간은 안드로이드의 '사용 기록 액세스'로 셉니다. 둘 다 켜지 않아도 런처로는 쓸 수 있습니다.
+- **기록은 어디에 저장되나요?** 기기 안에만 저장되고 어디로도 보내지 않습니다. 인터넷은 표지 검색(YES24)과 새 판 확인(GitHub)에만 씁니다. 앱을 지우면 기록도 함께 지워집니다.
+
+## Links
+
+- [Homepage (English)](https://pebbledesk.github.io/en/)
+- [홈페이지(한국어)](https://pebbledesk.github.io/)
+- [Download (GitHub Releases)](https://github.com/hissinger/pebble-desk/releases/latest)
+- [Source code and README](https://github.com/hissinger/pebble-desk)
+- [Troubleshooting (Korean)](https://github.com/hissinger/pebble-desk/blob/main/docs/TROUBLESHOOTING.md)
