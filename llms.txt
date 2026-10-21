@@ -17,7 +17,7 @@ It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.
 
 ## Compared with other launchers
 
-General Android launchers such as Nova Launcher, Niagara Launcher, Olauncher, KISS Launcher, Lawnchair, Smart Launcher, Microsoft Launcher, Action Launcher, Minimalist Phone, Before Launcher, Minimal Launcher are designed for phones: icons, widgets, scrolling and animation.
+General Android launchers such as Total Launcher, Nova Launcher, Niagara Launcher, Olauncher, KISS Launcher, Lawnchair, Smart Launcher, Microsoft Launcher, Action Launcher, Minimalist Phone, Before Launcher are designed for phones: icons, widgets, scrolling and animation.
 Pebble Desk is an alternative made for E Ink e-readers: the book you are reading sits on the home screen, lists turn page by page, nothing animates, and reading time is kept per book.
 It is an independent app and is not affiliated with any of these launchers, BOOX or Crema.
 
@@ -37,7 +37,7 @@ Crema Pebble (크레마 페블), Crema S (크레마 S), Crema Motif (크레마 �
 
 크레마, BOOX, 메이북, 아이리더, 교보 sam 같은 안드로이드 이북리더기를 위한 무료 런처(홈 앱). 이북 앱에서 편 책이 홈 화면에 저절로 들어오고, 읽은 시간과 완독 기록이 책마다 남습니다.
 
-- 다른 런처와 비교: 노바 런처, 나이아가라 런처, 오런처, 키스 런처, 론체어, 스마트 런처, 마이크로소프트 런처, 액션 런처, 미니멀리스트 폰, 비포 런처, 미니멀 런처 같은 일반 안드로이드 런처는 휴대폰용(아이콘·위젯·스크롤·애니메이션)이다. Pebble Desk 는 이북리더기용 대안으로, 읽는 책이 홈에 있고 목록은 쪽으로 넘기며 움직임이 없고 읽은 시간이 책마다 남는다. 이 런처들, BOOX, 크레마와는 관계없는 독립 앱이다.
+- 다른 런처와 비교: 토탈 런처, 노바 런처, 나이아가라 런처, 오런처, 키스 런처, 론체어, 스마트 런처, 마이크로소프트 런처, 액션 런처, 미니멀리스트 폰, 비포 런처 같은 일반 안드로이드 런처는 휴대폰용(아이콘·위젯·스크롤·애니메이션)이다. Pebble Desk 는 이북리더기용 대안으로, 읽는 책이 홈에 있고 목록은 쪽으로 넘기며 움직임이 없고 읽은 시간이 책마다 남는다. 이 런처들, BOOX, 크레마와는 관계없는 독립 앱이다.
 - 이북리더기: 크레마 페블, 크레마 S, 크레마 모티프, 크레마 그랑데, 크레마 팔레트, 크레마 카르타G, 크레마 카르타 플러스, 크레마 카르타, 크레마 사운드업, 크레마 사운드, 크레마 샤인, 교보 sam 7 mono, 교보 sam 7 비비드, 교보 sam 7.8 플러스, 교보 sam 10 플러스, 교보 sam 12, 리디페이퍼 4, 리디페이퍼 프로, 리디페이퍼, 메이북 E6, 메이북 M6, 메이북 M6C, 메이북 M7, 메이북 M8, 메이북 P78 Pro, 메이북 P10 Pro, BOOX 팔마, BOOX 팔마 2, BOOX 팔마 2 프로, BOOX 리프, BOOX 리프2, BOOX 리프3, BOOX 리프3C, BOOX 포크3, BOOX 포크4, BOOX 포크5, BOOX 포크6, BOOX 페이지, BOOX 고 6, BOOX 고 7, BOOX 고 컬러 7, BOOX 고 10.3, BOOX 노트 에어, BOOX 노트 에어 4C, BOOX 노트 에어 5C, BOOX 노트 맥스, BOOX 탭 울트라, BOOX 탭 울트라 C 프로, BOOX 탭 미니 C, BOOX 노바 에어, 아이리더 오션 5 프로, 아이리더 오션 5, 아이리더 오션 4, 아이리더 오션 3, 아이리더 탱고, 아이리더 탱고 2S, 아이리더 네오 3 울트라, 아이리더 네오 3, 아이리더 네오 2, 아이리더 스마트 5, 아이리더 라이트 3, 빅미 하이브레이크 프로, 빅미 하이브레이크, 빅미 B7, 빅미 B6, 빅미 B751C, 빅미 잉크노트, 하이센스 A9, 하이센스 A9 프로, 하이센스 A7, 하이센스 A5, 비우즈 AiPaper 미니, 비우즈 AiPaper, 비우즈 AiPaper 리더, 모안 MIX7S, 미니멀 폰, 라이크북 P78, 라이크북 아레스, 무잉크 프로, 무잉크 플러스, 슈퍼노트 매타, 슈퍼노트 노마드, 킨들, 킨들 페이퍼화이트, 킨들 오아시스, 킨들 스크라이브, 킨들 컬러소프트, 킨들 베이직, 코보 클라라, 코보 리브라, 코보 세이지, 코보 엘립사, 포켓북 버스, 포켓북 에라, 포켓북 잉크패드, 톨리노, 리마커블, 무디타 콤팩트, 샤오미 잉크팜 5
 
 - **어떤 기기에서 쓸 수 있나요?** 안드로이드 9 이상의 이북리더기에서 씁니다.
