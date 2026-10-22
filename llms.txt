@@ -13,7 +13,7 @@ It runs on Android 9 or later and is free with no ads (PolyForm Noncommercial 1.
 - Books this year with finish history (ratings, notes, re-reads)
 - Pages instead of scrolling, no animations
 - Black-and-white or color, adjustable text size and spacing
-- Supported reading apps (auto-add): Kindle, Libby, KOReader, Moon+ Reader, Kyobo Library, Kyobo eBook, millie (밀리의서재), Aladin, Bookers, RIDI, YES24 Library, my YES, YES24 eBook, NeoReader (BOOX)
+- Supported reading apps (auto-add): Kindle, Libby, KOReader, Moon+ Reader, EzViewer (이지뷰어), CherieViewer (채리뷰어), Kyobo Library, Kyobo eBook, millie (밀리의서재), Aladin, Bookers, RIDI, YES24 Library, my YES, YES24 eBook, NeoReader (BOOX)
 
 ## Compared with other launchers
 
