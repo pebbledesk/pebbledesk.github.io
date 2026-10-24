@@ -226,19 +226,22 @@
   .steps span { color: var(--sub); font-size: 16px; }
   @media (max-width: 680px) { .steps { grid-template-columns: 1fr; gap: 24px; } }
 
-  /* 지원 앱: 아이콘을 가로 한 줄로(좁으면 옆으로 밀어서) */
-  .apps { margin: 80px -16px 0; }
+  /* 지원 앱: 줄을 바꿔 모두 보이게(넓으면 한 줄 9개, 좁으면 4개) */
+  .apps { margin: 80px 0 0; }
   .apps h3 { font-size: 15px; font-weight: 600; color: var(--sub); margin: 0 0 22px; }
   .apps ul {
-    list-style: none; margin: 0; padding: 4px 16px 12px;
-    display: flex; justify-content: safe center; gap: 8px;
-    overflow-x: auto; scrollbar-width: none;
+    list-style: none; margin: 0 auto; padding: 0; max-width: 836px;
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 18px 8px;
   }
-  .apps ul::-webkit-scrollbar { display: none; }
   .apps li { flex: 0 0 84px; font-size: 13px; line-height: 1.35; color: var(--ink); }
   .apps img {
     display: block; width: 60px; height: 60px; margin: 0 auto 9px;
     border-radius: 14px; box-shadow: 0 0 0 1px rgba(0, 0, 0, .07);
+  }
+  @media (max-width: 560px) {
+    .apps ul { gap: 16px 4px; max-width: 340px; }
+    .apps li { flex-basis: 78px; font-size: 12px; }
+    .apps img { width: 52px; height: 52px; border-radius: 12px; margin-bottom: 7px; }
   }
 
   /* 전자잉크 */
