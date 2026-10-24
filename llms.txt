@@ -31,7 +31,7 @@ Crema Pebble (크레마 페블), Crema S (크레마 S), Crema Motif (크레마 �
 - **Is it free?** Yes, and there are no ads. You can use it freely for noncommercial purposes (PolyForm Noncommercial 1.0.0).
 - **How do I install it?** Download the APK from GitHub Releases, copy it to your device and tap it in a file manager. Allow “install unknown apps” the first time. Then set Pebble Desk as your home app in its Settings › Apps › Default home app. Later versions install from Settings › About › Update.
 - **Why does it need the accessibility permission?** To recognize the book you open in a reading app. It only receives the screens of supported reading apps and doesn’t look at any other app. Reading time comes from Android’s Usage access.
-- **Where is my reading history stored?** Only on your device; nothing is sent anywhere. The internet is used only to search covers (YES24) and to check for new versions (GitHub). Uninstalling the app deletes the history too.
+- **Where is my reading history stored?** Only on your device; nothing is sent anywhere. The internet is used only to search covers (Apple Books and Open Library, or YES24 for Korean titles) and to check for new versions (GitHub). Uninstalling the app deletes the history too.
 
 ## 한국어 요약
 
